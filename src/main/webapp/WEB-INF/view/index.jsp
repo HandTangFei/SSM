@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8" %>
+
 <%@ include file="/WEB-INF/view/common/tagPage.jsp" %>
+
 
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -13,25 +15,41 @@
 
 </head>
 <body>
-<div>
-<%@ include file="/WEB-INF/view/common/nav.jsp" %>
-</div>
-<div style="height:500px;background-color: red;margin-top:116px;"></div>
-<div style="height:500px;background-color: greenyellow;"></div>
-<div style="height:500px;background-color: blue;"></div>
-<div style="height:500px;background-color: grey;"></div>
-<div style="height:500px;background-color: bisque;"></div>
-<div style="height:500px;background-color: gold;"></div>
 
+<%@ include file="/WEB-INF/view/common/nav.jsp" %>
+
+
+
+<div style="height:1800px;margin-top:100px;background-color: greenyellow;">
+<h2>
+    <a href="http://code.YouMeek.com" target="_blank">Hello YouMeek</a>
+</h2>
+
+<br>
+
+<a href="/sysUserController/showUserToJspById/2" target="_blank">查询用户信息并跳转到一个JSP页面</a>
+
+<br>
+
+<a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
+
+<br>
+
+<button type="button" class="btn btn-primary">（首选项）Primary</button>
+</div>
 
 
 <script type="text/javascript">
     $(document).ready(function(){
 
         $(".w-nav-link").click(function(){
-
+           $(".w-nav-link").css({"background-color":"#fff","color":"#000"});
         });
     });
+
+
+
+
 
 </script>
 
