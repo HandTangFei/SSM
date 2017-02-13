@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - @localhost" uuid="c5321624-98c0-450b-8f85-379477e37f00">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="MySQL - ssm@localhost" uuid="9fe2cbe7-e794-45f1-b04d-ce856e4e6a3a">
+    <database-info product="MySQL" version="5.7.14-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="ssm">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="bookstore"/>
+      <schema id="3" name="hap_dev"/>
+      <schema id="4" name="hap_prod"/>
+      <schema id="5" name="information_schema"/>
+      <schema id="6" name="jsp_db"/>
+      <schema id="7" name="knowledge"/>
+      <schema id="8" name="liferaysrc"/>
+      <schema id="9" name="mybatis"/>
+      <schema id="10" name="mysql"/>
+      <schema id="11" name="performance_schema"/>
+      <schema id="12" name="portlet"/>
+      <schema id="13" name="quick4j"/>
+      <schema id="14" name="sakila"/>
+      <schema id="15" name="sys"/>
+      <schema id="16" name="test_db"/>
+      <table id="17" parent="1" name="sys_user"/>
+      <column id="18" parent="17" name="sys_user_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="19" parent="17" name="sys_user_login_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="20" parent="17" name="sys_user_login_password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="21" parent="17" name="sys_user_status">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="22" parent="17" name="sys_user_is_delete">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="23" parent="17" name="sys_user_register_datetime">
+        <mandatory>1</mandatory>
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="24" parent="17" name="sys_user_register_source">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="25" parent="17" name="sys_user_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="26" parent="17" name="sys_user_sex">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="27" parent="17" name="sys_user_is_email_active">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="28" parent="17" name="sys_user_is_mobile_active">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="29" parent="17" name="sys_user_register_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="30" parent="17" name="sys_user_pay_passwrod">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="31" parent="17" name="sys_user_icon">
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="32" parent="17" name="sys_user_real_name">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="33" parent="17" name="sys_user_email">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="34" parent="17" name="sys_user_mobile">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="35" parent="17" name="sys_user_weibo_id">
+        <data-type>varchar(36)|0</data-type>
+      </column>
+      <column id="36" parent="17" name="sys_user_qq_id">
+        <data-type>varchar(36)|0</data-type>
+      </column>
+      <key id="37" parent="17" name="PRIMARY">
+        <columns>sys_user_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

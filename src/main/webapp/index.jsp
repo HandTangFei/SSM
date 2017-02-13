@@ -57,41 +57,65 @@
 <%--第二部分--%>
 <div class="container-fluid w-two">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 " style="text-align: center;">
-            <h3>专注19年只做移动互联网服务平台</h3>
+        <div class="col-md-8 col-md-offset-2 " >
+            <h2><strong>专注19年只做移动互联网服务平台</strong></h2>
         </div>
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <h6>(众人一生只做一件事)</h6>
+        <div class="col-md-8 col-md-offset-2">
+            <h4>(众人一生只做一件事)</h4>
         </div>
 
     </div>
 
-    <div class="row">
+    <div class="row" style="margin:30px;">
         <div class="col-md-2 col-md-offset-1 w-two-list" >
             <div class="w-two-item">
-                    1111111111
+                <div>
+                    <h3>企业建站</h3>
+                    <p>一对一定制解决方案</p>
+                    <img src="${webRoot}/images/w-2-1.PNG">
+                    <p>专业从事企业官网建设17年满足不同行业，不同建站需求</p>
+                </div>
             </div>
 
         </div>
         <div class="col-md-2 w-two-list" >
             <div class="w-two-item" >
-                    222222222222
+                    <div class="w-two-item-2" >
+                        <p><a href=""javascript:void(0)>PC网站</a> <small>企业级门户网站</small></p>
+                        <p>助力企业形象展示及品牌宣传 </p>
+                    </div>
+                    <div class="w-two-item-2">
+                        <p><a href=""javascript:void(0)>全站建设</a> <small>支持电脑端和手机端 </small></p>
+                    </div>
+                    <div class="w-two-item-2" style="border:none;">
+                        <p><a href=""javascript:void(0)>网上商城建设</a> <small>电子商务网站</small></p>
+                        <p>线上线下渠道，无缝实现O2O </p>
+                    </div>
             </div>
         </div>
 
        <div class="col-md-2 w-two-list" >
-            <div class="w-two-item">
-                    3333333333333
+            <div class="w-two-item w-two-item-3">
+                <h3>企业建站</h3>
+                <p>一对一定制解决方案</p>
+                <img src="${webRoot}/images/w-2-3.PNG">
+                <p>专业从事企业官网建设17年满足不同行业，不同建站需求</p>
             </div>
         </div>
-        <div class="col-md-2 w-two-list" >
-            <div class="w-two-item" >
-                    4444444444444
+        <div class="col-md-2 w-two-list " >
+            <div class="w-two-item w-two-item-4" >
+                <h3>企业建站</h3>
+                <p>一对一定制解决方案</p>
+                <img src="${webRoot}/images/w-2-5.JPG">
+                <p>专业从事企业官网建设17年满足不同行业，不同建站需求</p>
             </div>
         </div>
-        <div class="col-md-2 w-two-list" >
-            <div class="w-two-item" >
-                    5555555555555
+        <div class="col-md-2 w-two-list " >
+            <div class="w-two-item w-two-item-5" >
+                <h3>企业建站</h3>
+                <p>一对一定制解决方案</p>
+                <img src="${webRoot}/images/w-2-7.JPG">
+                <p>专业从事企业官网建设17年满足不同行业，不同建站需求</p>
             </div>
         </div>
 
@@ -101,23 +125,27 @@
 <%--第三部分--%>
 <div  class="container-fluid w-three">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <h3>精品案例</h3>
+        <div class="w-three-header">
+            <h2><strong>精品案例</strong></h2>
+            <h4>案例展现实力</h4>
         </div>
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <h6>案例展现实力</h6>
-        </div>
+
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
                 <div class="col-md-4 w-three-list">
-                    111111111111
+                    <img src="${webRoot}/images/w-3-1.PNG">
+                    <h3>新艺智能手表</h3>
+                    <p>是智能穿戴、数码产品解决方案</p>
                 </div>
                 <div class="col-md-4 w-three-list">
-                    222222222222
+                    <img src="${webRoot}/images/w-3-2.PNG">
+                    <h3>双信融资租赁</h3>
+                    <p>业包括公共服务、节能环保、能源电力、装备制造等</p>
                 </div>
                 <div class="col-md-4 w-three-list">
-                    333333333333
-                    <h3>测试bootstrap的small功能<small>小标题</small></h3>
+                    <img src="${webRoot}/images/w-3-3.PNG">
+                    <h3>一么么科技</h3>
+                    <p>主要产品有音乐按摩、多功能杯座、电机控制系统</p>
                 </div>
             </div>
         </div>
@@ -145,17 +173,25 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1" >
             <div class="row">
-                <div class="col-md-3">
-                    111111
+                <div class="col-md-3 w-four-list">
+                    <img src="${webRoot}/images/w-4-1.PNG">
+                    <h3>精准营销</h3>
+                    <p>它是移动社会化体精准营销平台，重塑传播模式，在造行为价值，重新定义广告让世界看到。</p>
                 </div>
-                <div class="col-md-3">
-                    22222222
+                <div class="col-md-3 w-four-list">
+                    <img src="${webRoot}/images/w-4-2.PNG">
+                    <h3>操作简单</h3>
+                    <p>只要会玩微信就可操作，全国商家传播信息的共同选择，企业竞争的致胜瑰宝。</p>
                 </div>
-                <div class="col-md-3">
-                    33333333333
+                <div class="col-md-3 w-four-list">
+                    <img src="${webRoot}/images/w-4-3.PNG">
+                    <h3>非同凡响</h3>
+                    <p>它拥有非同凡响的营销方式，让你的粉丝迅速爆棚。</p>
                 </div>
-                <div class="col-md-3">
-                    444444444444
+                <div class="col-md-3 w-four-list">
+                    <img src="${webRoot}/images/w-4-4.PNG">
+                    <h3>疯狂整合</h3>
+                    <p>疯狂整合跨平台资源，让您的广告无所不在。</p>
                 </div>
             </div>
         </div>
@@ -163,31 +199,102 @@
 </div>
 
 
-<div style="height:500px;" class="container-fluid">
+<%--第五部分--%>
+<div class="container-fluid w-five" >
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
+        <div class="col-md-12  col-sm-12" style="text-align: center; margin-bottom:30px;">
             <h3>支付方式</h3>
         </div>
+        <div class="col-md-2  col-sm-4 col-md-offset-1 w-five-list">
+            <p>招商银行深圳建安支行</p>
+            <p>账号：8186 8105 6110 001</p>
 
-    </div>
-</div>
-
-<div style="height:500px;" class="container-fluid">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <h3>other</h3>
+        </div>
+        <div class="col-md-2  col-sm-4 w-five-list">
+            <p>招商银行深圳建安支行</p>
+            <p>账号：8186 8105 6110 001</p>
+        </div>
+        <div class="col-md-2  col-sm-4 w-five-list">
+            <p>招商银行深圳建安支行</p>
+            <p>账号：8186 8105 6110 001</p>
+        </div>
+        <div class="col-md-2  col-sm-4 w-five-list ">
+            <p>招商银行深圳建安支行</p>
+            <p>账号：8186 8105 6110 001</p>
+        </div>
+        <div class="col-md-2  col-sm-4 w-five-list" style="border:none;">
+            <p>招商银行深圳建安支行</p>
+            <p>账号：8186 8105 6110 001</p>
         </div>
 
     </div>
 </div>
 
-<div style="height:500px;" class="container-fluid">
+<%--第六部分--%>
+<div class="container-fluid w-six">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <h3>footer</h3>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-md-4 w-six-list">
+                    <div>
+                        <p><strong>观澜分部</strong></p>
+                    </div>
+                    <div class="w-six-detail">
+                        <p>地址：龙华新区观澜镇新田观平路178号新联大厦601-602</p>
+                        <p>电话：0755-27978876 66607770</p>
+                        <p>传真：0755-27978896</p>
+                    </div>
+                </div>
+                <div class="col-md-4 w-six-list">
+                    <div>
+                        <p><strong>观澜分部</strong></p>
+                    </div>
+                    <div class="w-six-detail">
+                        <p>地址：龙华新区观澜镇新田观平路178号新联大厦601-602</p>
+                        <p>电话：0755-27978876 66607770</p>
+                        <p>传真：0755-27978896</p>
+                    </div>
+                </div>
+                <div class="col-md-4 w-six-list">
+                    <div>
+                        <p><strong>观澜分部</strong></p>
+                    </div>
+                    <div class="w-six-detail">
+                        <p>地址：龙华新区观澜镇新田观平路178号新联大厦601-602</p>
+                        <p>电话：0755-27978876 66607770</p>
+                        <p>传真：0755-27978896</p>
+                    </div>
+                </div>
+                <div class="col-md-4 w-six-list">
+                    <div>
+                        <p><strong>观澜分部</strong></p>
+                    </div>
+                    <div class="w-six-detail">
+                        <p>地址：龙华新区观澜镇新田观平路178号新联大厦601-602</p>
+                        <p>电话：0755-27978876 66607770</p>
+                        <p>传真：0755-27978896</p>
+                    </div>
+                </div>
+                <div class="col-md-4 w-six-list">
+                    <div>
+                        <p><strong>观澜分部</strong></p>
+                    </div>
+                    <div class="w-six-detail">
+                        <p>地址：龙华新区观澜镇新田观平路178号新联大厦601-602</p>
+                        <p>电话：0755-27978876 66607770</p>
+                        <p>传真：0755-27978896</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </div>
+</div>
+
+
+<div class="footer">
+    版权所有 ©1998-2016 www.668com.net All Rights Reserved
 </div>
 
 
