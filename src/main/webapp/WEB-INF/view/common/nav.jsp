@@ -4,7 +4,6 @@
 <div>
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="tel">
-
         <p style="text-align: right;">
             <img src="${webRoot}/images/tel.jpg" height="15" width="15">
             全国服务热线：<font style="color:red;">400-88888888.13828811868</font>

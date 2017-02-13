@@ -16,4 +16,5 @@
 %>
 
 <link href="${webRoot}/css/bootstrap.min.css" rel="stylesheet">
-<script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>
+<script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-2.0.3.min.js?cdntime=${cdntime}"></script>
+<script type="text/javascript" src="${webRoot}/js/jQuery-core/bootstrap.min.js?cdntime=${cdntime}"></script>

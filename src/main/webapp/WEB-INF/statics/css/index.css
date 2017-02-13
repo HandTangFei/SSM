@@ -1,3 +1,6 @@
+body{
+    padding:115px 0 0;
+}
 a,a:hover,a:focus{
     text-decoration: none;
 }
@@ -14,32 +17,42 @@ a,a:hover,a:focus{
     left: 0;
     top: 0;
     width: 100%;
-    min-width:1400px;
+    min-width:820px;
 }
 
 .w-nav-logo{
     float:left;
-    margin:0 100px 0 80px;
+    padding-left:50px;
     position:relative;
+    width:20%;
+    height:100%;
+    /*
+    background:blueviolet;
+    */
 }
 
+.w-nav-content{
+    float:left;
+    width:80%;
+    height:100%;
+ /*   background:yellow;*/
+}
 
 .w-nav-ul{
-    margin:0 0 0 18px;
     padding:0;
+    width:100%;
+    height:100%;
+/*    background:burlywood;*/
 }
-
-/*.w-nav-li.current{
-    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #055fb8, #095fb3) repeat scroll 0 0;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12) inset;
-}*/
-
 
 .w-nav-li{
     float:left;
     list-style:outside none none;
     margin:0;
     position:relative;
+    height:100%;
+    width:13%;
+   /* background:red;*/
 }
 
 .w-nav-li:hover{
@@ -51,12 +64,93 @@ a,a:hover,a:focus{
 }
 
 .w-nav-link{
-    color:#f2f4f5;
-    display:block;
-    font-size:20px;
-    height:80px;
-    width:150px;
-    text-align: center;
-    line-height:75px;
-    text-decoration: none !important;
+     color:#f2f4f5;
+     display:block;
+     font-size: 1.2em;
+     height:100%;
+     width:100%;
+     text-align: center;
+     line-height:450%;
+     text-decoration: none !important;
+ }
+
+
+
+.w-two{
+    min-height:520px;
+    background-color:#DCDCDC;
 }
+    .w-two-list{
+        padding:0;
+    }
+        .w-two-item{
+            border:1px solid #e8e8e8;
+            min-height: 400px;
+            background:#fff;
+        }
+
+
+.w-three{
+    min-height:500px;
+}
+    .w-three-list{
+        border:1px solid #e8e8e8;
+        min-height: 400px;
+        /*width:30%;*/
+        background:darkgrey;
+    }
+
+
+.w-four{
+    min-height: 500px;
+
+}
+    .w-four-title{
+        /*border-top: 1px dotted #778899;*/
+        text-align: center;
+        float:left;
+        width:30%;
+    }
+        .w-four-bt{
+            text-align: center;
+        }
+
+        .w-four-bt p{
+            font-size:18px;
+            color:#999;
+        }
+
+    .border{
+        border-top: 1px dotted #778899;
+        float:left;
+        width:35%;
+        margin-top:60px;
+    }
+    .w-four-introduce{
+        clear:both;
+        text-align:center;
+    }
+
+    .w-four-introduce p{
+        font-size:12px;
+        color:#999;
+        line-height:18px;
+        margin:0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
