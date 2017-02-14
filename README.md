@@ -3,7 +3,7 @@
 这是fork一个只有基本的SSM框架的开源SSM项目,在此基础上进行开发。
 - 环境：
     - JDK 7（理论上支持 JDK 6、JDK 7、JDK 8）
-    - Maven 3.1.1
+    - Maven 3.3.1
     - Mysql 5.6
     - Tomcat 7
     - IDE：IntelliJ IDEA 16.2.1
